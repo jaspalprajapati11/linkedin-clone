@@ -1,8 +1,9 @@
 import Image from "next/image";
-import Navbar from "../components/Common/navbar";
-import Sidebar from "../components/Home/sidebar";
-import Feedpage from "../components/Home/feedpage";
-import RightSidebar from "../components/Home/rightsidebar";
+import Navbar from "./components/Common/navbar";
+import Sidebar from "./components/Home/sidebar";
+import Feedpage from "./components/Home/feedpage";
+import RightSidebar from "./components/Home/rightsidebar";
+
 
 export default function Home() {
   return (
@@ -12,13 +13,13 @@ export default function Home() {
       </div>
       <div className="flex bg-stone-200	h-ful">
         <div className=" basis-80">
-          <Sidebar/>
+          <Sidebar />
         </div>
         <div className="grow">
-          <Feedpage/>
+          <Feedpage />
         </div>
         <div className="basis-96">
-          <RightSidebar/>
+          <RightSidebar />
         </div>
       </div>
     </div>
