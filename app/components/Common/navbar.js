@@ -32,7 +32,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="flex basis-1/3 mt-3 justify-between ml-32">
-                    <Link href='/home'>
+                    <Link href='/'>
                         <div className=" flex flex-col items-center">
                             <div className="relative ml-2 top-1 right-4 rounded-md shadow-sm">
                                 <div className="rounded-full pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
