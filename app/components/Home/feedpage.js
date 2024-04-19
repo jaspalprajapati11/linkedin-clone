@@ -107,9 +107,9 @@ const Feedpage = () => {
                             <p className="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
                         <div className="text-gray-500 text-xs flex items-center -mt-3 p-3 border-b">
-                            <img className="-mr-0.5" src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" />
-                            <img className="-mr-0.5" src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" />
-                            <img className="mr-0.5" src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" />
+                            <Image className="-mr-0.5" src='/like.svg' width={16} height={16} />
+                            <Image className="-mr-0.5" src='/clap.svg' width={16} height={16} />
+                            <Image className="-mr-0.5" src='/heart.svg' width={16} height={16} />
                             <span className="ml-1">Rohit Sharma, Ishan Kishan and 38,980 others</span>
                             <span className="ml-32">47 comments • 26 reposts</span>
                         </div>
