@@ -9,7 +9,7 @@ const RightSidebar = () => {
               <p className='font-semibold'>Linkedin News</p>
               <ul className="list-disc pl-3 text-sm space-y-4 mt-3 ">
                 <li>
-                  <p className='font-semibold '>India's top 25 companies this year</p>
+                  <p className='font-semibold'>Top 25 companies of India this year</p>
                   <p className='text-xs'>Top News • 34,825 readers</p>
                 </li>
                 <li>
@@ -25,7 +25,7 @@ const RightSidebar = () => {
                   <p className='text-xs'>1d ago • 14,825 readers</p>
                 </li>
                 <li>
-                  <p className='font-semibold'>Decoding India's IT trends</p>
+                  <p className='font-semibold'>Decoding IT trends of India</p>
                   <p className='text-xs'>2d ago • 64,825 readers</p>
                 </li>
               </ul>
