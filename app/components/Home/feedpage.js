@@ -3,7 +3,6 @@ import { IoImageSharp } from "react-icons/io5";
 import { FaCalendarAlt } from "react-icons/fa";
 import { MdArticle } from "react-icons/md";
 import { HiOutlineDotsHorizontal } from "react-icons/hi";
-import { AiOutlineClose } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
 import { FaRegThumbsDown } from "react-icons/fa";
 import { BsChatText } from "react-icons/bs";
@@ -14,7 +13,7 @@ import { IoIosSend } from "react-icons/io";
 
 const Feedpage = () => {
     return (
-        <div className='flex flex-col h-screen mt-5'>
+        <div className='flex flex-col mt-5'>
             <div className="flex max-w-[40rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                 <div className='flex basis-32'>
                     <div className='basis-28'>
