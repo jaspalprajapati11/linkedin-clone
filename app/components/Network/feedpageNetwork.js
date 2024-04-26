@@ -99,7 +99,7 @@ const FeedpageNetwork = () => {
                     </div>
                   </div>
                   <div className="p-3 flex -mt-10 items-center flex-col">
-                    <h6 className="block font-sans text-md antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                    <h6 className="block font-sans text-md antialiased font-semibold leading-snug tracking-normal">
                       {user.title}
                     </h6>
                     <p className='text-xs mt-1 text-center text-stone-500'>
@@ -112,12 +112,12 @@ const FeedpageNetwork = () => {
                     </p>
                   </div>
                   <div className='flex justify-center mb-5 mt-3 '>
-                    <div className='flex border-2 border-blue-500 w-36 h-8 justify-center items-center rounded-3xl'>
+                    <div className='flex border-2 border-sky-700 w-36 h-8 justify-center items-center rounded-3xl'>
                       <div>
-                        <BiSolidUserPlus size={20} className='text-blue-500' />
+                        <BiSolidUserPlus size={20} className='text-sky-700' />
                       </div>
                       <div className='ml-1'>
-                        <p className='text-md text-center font-medium text-blue-500'>
+                        <p className='text-md text-center font-medium text-sky-700'>
                           Connect
                         </p>
                       </div>

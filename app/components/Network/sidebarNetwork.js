@@ -44,8 +44,8 @@ const SidebarNetwork = () => {
                             </p>
                         </div>
                         <div className='flex justify-center mb-6 -mt-3'>
-                            <div className='flex border border-blue-500 w-28 h-8 justify-center items-center rounded-2xl'>
-                                <p className='text-md text-center font-medium text-blue-500'>
+                            <div className='flex border border-sky-700 w-28 h-8 justify-center items-center rounded-2xl'>
+                                <p className='text-md text-center font-medium text-sky-700'>
                                     Try for Free
                                 </p>
                             </div>
