@@ -76,7 +76,7 @@ const FeedpageNetwork = () => {
           <div className='grid grid-cols-4 gap-4 h-full p-5'>
             {
               users.map((user) => {
-                return <div className="flex w-48 flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                return <div key ={user.id} className="flex w-48 flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                   <div className='h-16 overflow-hidden bg-clip-border'>
                     <Image
                       src='/cover.jfif'

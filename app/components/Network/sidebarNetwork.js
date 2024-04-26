@@ -40,7 +40,7 @@ const SidebarNetwork = () => {
                         </div>
                         <div className='flex p-5'>
                             <p className='text-md text-center text-stone-500'>
-                                See who's viewed your profile in the last 90 days
+                                See who has viewed your profile in the last 90 days
                             </p>
                         </div>
                         <div className='flex justify-center mb-6 -mt-3'>
