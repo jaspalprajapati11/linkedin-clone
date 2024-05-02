@@ -80,7 +80,7 @@ const FeedpageMessages = () => {
                     <div className='flex flex-col gap-2 border-r-2 overflow-y-scroll'>
                         {
                             messageData.map((chat) => {
-                                return <div className=' basis-1/3 flex mt-3'>
+                                return <div className=' basis-1/3 flex mt-3' key={chat.id}>
                                     <div className='basis-1/4flex justify-center'>
                                         <div className="rounded-full h-14 w-14">
                                             <Image
