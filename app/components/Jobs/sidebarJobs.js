@@ -33,7 +33,7 @@ const SidebarJobs = () => {
           </div>
           <div className='flex items-center gap-2'>
             <FaYoutube size={20} />
-            <p className='font-normal'>Job seeker guidance</p>
+            <p className='font-normal'>Job seeker</p>
           </div>
         </div>
       </div>

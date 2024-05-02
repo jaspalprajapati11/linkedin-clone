@@ -12,8 +12,6 @@ import { IoIosSend } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 
 
-
-
 const FeedpageJobs = () => {
     const companies = [
         {
