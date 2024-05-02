@@ -8,43 +8,51 @@ const FeedpageNetwork = () => {
 
   const users = [
     {
-      title: 'Jaspal Prajapati',
-      company: 'Fullstack developer @IIIT-B',
+      title: 'Rohit Sharma',
+      company: 'Hitman @Indian Cricket Team',
+      icon:'Rohit.jpg',
       id: 1
     },
     {
-      title: 'Jaspal Prajapati',
-      company: 'Fullstack developer @IIIT-B',
+      title: 'Michael Clarke',
+      company: 'Former Captain @Australian Cricket Team',
+      icon:'Clarke.jpg',
       id: 2
     },
     {
-      title: 'Jaspal Prajapati',
-      company: 'Fullstack developer @IIIT-B',
+      title: 'Ishan Kishan',
+      company: 'Pocket Dynamite @Indian Cricket Team',
+      icon:'Ishan.jpg',
       id: 3
     },
     {
-      title: 'Jaspal Prajapati',
-      company: 'Fullstack developer @IIIT-B',
+      title: 'David Miller',
+      company: 'Killer Miller @South Africa Cricket Team',
+      icon:'Miller.jpg',
       id: 4
     },
     {
-      title: 'Jaspal Prajapati',
-      company: 'Fullstack developer @IIIT-B',
+      title: 'AB de Villiers',
+      company: 'Mr. 360 @South Africa Cricket Team',
+      icon:'Abd.jpg',
       id: 5
     },
     {
-      title: 'Jaspal Prajapati',
-      company: 'Fullstack developer @IIIT-B',
+      title: 'Surya Kumar Yadav',
+      company: 'Sky 360 @Indian Cricket Team',
+      icon:'Sky.png',
       id: 6
     },
     {
-      title: 'Jaspal Prajapati',
-      company: 'Fullstack developer @IIIT-B',
+      title: 'Jasprit Bumrah',
+      company: 'Boom Boom @Indian Cricket Team',
+      icon:'Bumrah.jpg',
       id: 7
     },
     {
-      title: 'Jaspal Prajapati',
-      company: 'Fullstack developer @IIIT-B',
+      title: 'Glenn Maxwell',
+      company: 'The Big Show @Australian Cricket Team',
+      icon:'Maxwell.jpg',
       id: 8
     },
   ]
@@ -89,7 +97,7 @@ const FeedpageNetwork = () => {
                     <div className=" flex justify-center items-center">
                       <div className=" h-20 w-20 rounded-full object-fill border border-white">
                         <Image
-                          src={'/Jaspal.jpeg'}
+                          src={`/${user.icon}`}
                           width={500}
                           height={500}
                           alt="Picture of the author"
@@ -98,8 +106,8 @@ const FeedpageNetwork = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="p-3 flex -mt-10 items-center flex-col">
-                    <h6 className="block font-sans text-md antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                  <div className="p-3 flex -mt-10 h-20 items-center flex-col">
+                    <h6 className="block font-sans text-md antialiased font-semibold leading-snug tracking-normal">
                       {user.title}
                     </h6>
                     <p className='text-xs mt-1 text-center text-stone-500'>
@@ -112,12 +120,12 @@ const FeedpageNetwork = () => {
                     </p>
                   </div>
                   <div className='flex justify-center mb-5 mt-3 '>
-                    <div className='flex border-2 border-blue-500 w-36 h-8 justify-center items-center rounded-3xl'>
+                    <div className='flex border-2 border-sky-700 w-36 h-8 justify-center items-center rounded-3xl'>
                       <div>
-                        <BiSolidUserPlus size={20} className='text-blue-500' />
+                        <BiSolidUserPlus size={20} className='text-sky-700' />
                       </div>
                       <div className='ml-1'>
-                        <p className='text-md text-center font-medium text-blue-500'>
+                        <p className='text-md text-center font-medium text-sky-700'>
                           Connect
                         </p>
                       </div>

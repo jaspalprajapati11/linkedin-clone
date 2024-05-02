@@ -88,7 +88,7 @@ const Navbar = () => {
                     <DropdownMenu className=''>
                         <DropdownMenuTrigger>
                             <div className="flex flex-col items-center">
-                                <div className="rounded-full h-6 w-6 -mt-0.5">
+                                <div className="rounded-full h-6 w-6 -mt-3">
                                     <Image
                                         src={'/Jaspal.jpeg'}
                                         width={500}

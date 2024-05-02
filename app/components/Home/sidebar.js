@@ -30,7 +30,7 @@ const Sidebar = () => {
             </div>
           </div>
           <div className="p-3 flex -mt-8 items-center flex-col border-b">
-            <h6 className="block font-sans text-md antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            <h6 className="block font-sans text-md antialiased font-semibold leading-snug tracking-normal">
               Jaspal Prajapati
             </h6>
             <p className="block mt-1 font-sans text-xs text-center antialiased font-normal leading-relaxed text-gray-700">
