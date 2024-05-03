@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { FaLinkedin } from "react-icons/fa6";
-import { IoIosSearch } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
 import { AiFillHome } from "react-icons/ai";
 import { HiMiniUsers } from "react-icons/hi2";
@@ -10,12 +9,6 @@ import { MdNotifications } from "react-icons/md";
 import { PiDotsNineBold } from "react-icons/pi";
 import { BsRecordCircleFill } from "react-icons/bs";
 import Link from 'next/link';
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
 
 
 
@@ -85,85 +78,22 @@ const Navbar = () => {
                             <p className="text-xs">Notifications</p>
                         </div>
                     </Link>
-                    <DropdownMenu className=''>
-                        <DropdownMenuTrigger>
-                            <div className="flex flex-col items-center">
-                                <div className="rounded-full h-6 w-6 -mt-3">
-                                    <Image
-                                        src={'/Jaspal.jpeg'}
-                                        width={500}
-                                        height={500}
-                                        alt="Picture of the author"
-                                        className="rounded-full items-stretch"
-                                    />
-                                </div>
-                                <p className="text-xs">Profile</p>
+                    <Link href='/profile'>
+                        <div className="flex flex-col items-center -mt-0.5">
+                            <div className="rounded-full h-6 w-6">
+                                <Image
+                                    src={'/Jaspal.jpeg'}
+                                    width={500}
+                                    height={500}
+                                    alt="Picture of the author"
+                                    className="rounded-full items-stretch"
+                                />
                             </div>
-                        </DropdownMenuTrigger>
-                        <DropdownMenuContent className='w-72'>
-                            <Link href={'/profile'}>
-                                <DropdownMenuItem>
-                                    <div className='flex flex-col border-b'>
-                                        <div className='flex gap-2'>
-                                            <div className='basis-1/3'>
-                                                <div className="flex flex-col items-center">
-                                                    <div className="rounded-full h-12 w-12 mt-1">
-                                                        <Image
-                                                            src={'/Jaspal.jpeg'}
-                                                            width={500}
-                                                            height={500}
-                                                            alt="Picture of the author"
-                                                            className="rounded-full items-stretch"
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className='grow'>
-                                                <p className='font-bold'>Jaspal Prajapati</p>
-                                                <p>Software Engineer | ReactJS | React Native | NextJs</p>
-                                            </div>
-                                        </div>
-                                        <div className='flex justify-center mt-2 mb-3'>
-                                            <div className='flex border border-blue-500 w-full h-8 justify-center items-center rounded-2xl'>
-                                                <p className='text-md text-center font-medium text-blue-500'>
-                                                    View Profile
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </DropdownMenuItem>
-                            </Link>
-                            <DropdownMenuItem>
-                                <div className='flex flex-col gap-1.5'>
-                                    <div>
-                                        <p className='font-semibold text-lg'>Account</p>
-                                    </div>
-                                    <div>
-                                        <p className='text-sm font-medium text-stone-500'>Try Premium for ₹0</p>
-                                    </div>
-                                    <div className='text-sm text-stone-500 flex flex-col gap-1'>
-                                        <p>Setting & Privacy</p>
-                                        <p>Help</p>
-                                        <p>Language</p>
-                                    </div>
-                                </div>
-                            </DropdownMenuItem>
-                            <DropdownMenuItem>
-                                <div className='flex flex-col gap-1.5'>
-                                    <div>
-                                        <p className='font-semibold text-lg'>Manage</p>
-                                    </div>
-                                    <div className='text-sm text-stone-500 flex flex-col gap-1'>
-                                        <p>Post & Activity</p>
-                                        <p>Job Posting Account</p>
-                                        <p>Sign Out</p>
-                                    </div>
-                                </div>
-                            </DropdownMenuItem>
-                        </DropdownMenuContent>
-                    </DropdownMenu>
+                            <p className="text-xs">Profile</p>
+                        </div>
+                    </Link>
                 </div>
-                <div className="flex grow mt-1 ml-10">
+                <div className="flex grow mt-1.5 ml-10">
                     <div className="flex flex-col items-center">
                         <PiDotsNineBold color="#666666" size={26} />
                         <p className="text-xs">For Business</p>

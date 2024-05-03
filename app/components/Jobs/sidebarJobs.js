@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import { FaBookmark } from "react-icons/fa6";
 import { FaList } from "react-icons/fa";
-import { MdFactCheck } from "react-icons/md";
-import { BsFileCheck } from "react-icons/bs";
 import { BsFileCheckFill } from "react-icons/bs";
 import { MdArticle } from "react-icons/md";
 import { FaYoutube } from "react-icons/fa";

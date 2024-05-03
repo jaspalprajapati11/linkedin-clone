@@ -7,7 +7,7 @@ const RightSidebarProfile = () => {
     <div className="mt-5">
       <div className='flex'>
         <div className="flex w-full flex-col overflow-hidden rounded-xl bg-white bg-clip-border shadow-md">
-          <div className='flex p-5 justify-between border-b'>
+          <div className='flex p-3 justify-between border-b'>
             <div>
               <p className='font-semibold'>Profile Language</p>
               <p className='text-sm text-stone-500'>English</p>
