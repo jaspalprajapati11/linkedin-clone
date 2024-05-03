@@ -1,14 +1,4 @@
 import Image from 'next/image'
-import { IoImageSharp } from "react-icons/io5";
-import { FaCalendarAlt } from "react-icons/fa";
-import { MdArticle } from "react-icons/md";
-import { HiOutlineDotsHorizontal } from "react-icons/hi";
-import { AiOutlineClose } from "react-icons/ai";
-import { IoClose } from "react-icons/io5";
-import { FaRegThumbsDown } from "react-icons/fa";
-import { BsChatText } from "react-icons/bs";
-import { BiRepost } from "react-icons/bi";
-import { IoIosSend } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 
 
