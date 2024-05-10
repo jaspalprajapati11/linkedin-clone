@@ -6,9 +6,9 @@ import RightsidebarMessages from '../components/Messages/rightsidebarMessages'
 const Messages = () => {
   return (
     <div className="flex flex-col bg-stone-200">
-      <div className="bg-white">
+      <nav className="bg-white sticky top-0">
         <Navbar />
-      </div>
+      </nav>
       <div className="flex w-full justify-center mt-3">
         <div className="w-11/12 flex justify-between">
           <div className="basis-11/12">
